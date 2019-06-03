@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/main.css">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
     <title>Arkedrille</title>
 </head>
 <body>
@@ -13,6 +14,20 @@
         <li><a href="projects.html">My projects</a></li>
         <li><a href="contact.html">Contact me</a></li>
     </ul>
-    <p>Can't add stuff because I don't know how to use git</p>
+    <h1>Hi, I'm Karl.</h1>
+    <h2>Application support and developer for Marionnaud Perfumeries</h2>
+    <p>You can find all my projects from github on this website<br>
+    Please <a href="projects.html">click here</a></p>
+
+    <div class="social-buttons">
+        <p>Share on SNS</p>
+        <div class="share">
+          <a @click="share('twitter')"><i class="nes-icon twitter"></i></a>
+          <a @click="share('facebook')"><i class="nes-icon facebook"></i></a>
+          <a @click="share('linkedin')"><i class="nes-icon linkedin"></i></a>
+          <a @click="share('github')"><i class="nes-icon github"></i></a>
+        </div>
+      </div>
+</div>
 </body>
 </html>
