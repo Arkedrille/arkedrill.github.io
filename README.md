@@ -1,2 +1,3 @@
-# arkedrill.github.io
-All projects
+# arkedrille.github.io
+
+Website with all my projects
